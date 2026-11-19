@@ -1,0 +1,163 @@
+{
+ "projects": [
+  {
+   "title": "CanineBone AI",
+   "when": "Mini project, completed",
+   "text": "An AI-designed, 3D-printed scaffold for repairing a canine mandibular defect."
+  },
+  {
+   "title": "Next-Gen 3D Printed Rehabilitation Human Assist Device",
+   "when": "May 2024 – present",
+   "text": "A low-cost 3D-printed assistive device that supports mobility and daily activities for physically challenged people. Funded with an IVP Voucher A from EDII-TN.",
+   "img": "rehab-cad.jpg"
+  },
+  {
+   "title": "AI-Based Intestinal Parasite Detector",
+   "when": "Jan 2025 – present",
+   "text": "A deep learning system that detects and classifies intestinal parasites from microscopic images."
+  },
+  {
+   "title": "Breath-Based Cancer Screening System",
+   "when": "",
+   "text": "A system that screens for cancer from a person’s breath."
+  }
+ ],
+ "achievements": [
+  {
+   "title": "Vanavil calibration workshop",
+   "when": "New",
+   "text": "Completed a 3-day workshop."
+  },
+  {
+   "title": "IVP Voucher A fund, EDII-TN",
+   "when": "New",
+   "text": "Awarded for the 3D-printed rehabilitation human assist device."
+  },
+  {
+   "title": "Coolest Startup Award, IIT Madras",
+   "when": "Dec 2025",
+   "text": "For innovation and entrepreneurial excellence in project development."
+  },
+  {
+   "title": "BIRAC E-YUVA sub grant",
+   "when": "May 2025",
+   "text": "₹2.5 lakhs under the E-YUVA Innovation Program by BIRAC and Anna University."
+  },
+  {
+   "title": "Techfinix 2.0, second prize",
+   "when": "Apr 2025",
+   "text": "For project presentation and demonstration."
+  }
+ ],
+ "details": {
+  "address": "Cuddalore, Tamil Nadu, India",
+  "phone": "+91 9095082379",
+  "email": "hemaravir63@gmail.com",
+  "languages": "Tamil (native), English (professional)",
+  "links": [
+   [
+    "LinkedIn",
+    "linkedin.com/in/hemavathi06",
+    "https://linkedin.com/in/hemavathi06"
+   ],
+   [
+    "GitHub",
+    "github.com/hemavathi06",
+    "https://github.com/hemavathi06"
+   ],
+   [
+    "CodeChef",
+    "hemavathi28",
+    ""
+   ],
+   [
+    "LeetCode",
+    "hemavathi06",
+    ""
+   ]
+  ],
+  "objective": "Biomedical Engineering student with a strong academic record (CGPA 9.47) and hands-on experience in biomedical device development, AI-based healthcare solutions and 3D printing. Seeking a research internship in biomedical instrumentation, medical imaging and healthcare technologies.",
+  "interests": [
+   "Medical imaging and image analysis",
+   "AI in healthcare",
+   "Biomedical instrumentation",
+   "Rehabilitation engineering",
+   "Assistive devices",
+   "3D bioprinting and tissue engineering"
+  ]
+ },
+ "education": [
+  {
+   "title": "B.E. Biomedical Engineering",
+   "when": "2022 – 2026",
+   "text": "Paavai Engineering College, Namakkal · CGPA 9.47 (till date)"
+  },
+  {
+   "title": "Higher Secondary Certificate (Class XII)",
+   "when": "2022 – 2023",
+   "text": "Fatima Girl’s Higher Secondary School, Jayankondam · 85%"
+  },
+  {
+   "title": "Secondary School Leaving Certificate (Class X)",
+   "when": "2020 – 2021",
+   "text": "St. Antony’s High School, Aranthangi · 99%"
+  }
+ ],
+ "skills": [
+  "Python",
+  "C / C++",
+  "MATLAB",
+  "AutoCAD",
+  "Embedded systems",
+  "Arduino microcontrollers",
+  "Machine learning basics",
+  "Image processing basics",
+  "3D printing and design",
+  "Data analysis",
+  "Microsoft Office",
+  "Presentation and documentation"
+ ],
+ "internships": [
+  {
+   "title": "Embedded System and 3D Bioprinting Intern",
+   "when": "13–28 Jun 2025",
+   "text": "Medsby, Coimbatore. Hands-on work with embedded systems and 3D bioprinting in healthcare.",
+   "video": "medsby"
+  },
+  {
+   "title": "Hospital Intern, Biomedical",
+   "when": "9–23 Mar 2026",
+   "text": "Apollo Hospital, Chennai. Observed clinical procedures and worked around hospital equipment and patient care.",
+   "video": "apollo"
+  }
+ ],
+ "certifications": [
+  {
+   "title": "Embedded Systems",
+   "when": "2024",
+   "text": "NPTEL"
+  },
+  {
+   "title": "Python for Everybody",
+   "when": "2024",
+   "text": "Coursera"
+  },
+  {
+   "title": "Introduction to Biomedical Imaging",
+   "when": "2024",
+   "text": "Coursera"
+  },
+  {
+   "title": "Vanavil calibration workshop",
+   "when": "New",
+   "text": "Completed a 3-day workshop."
+  }
+ ],
+ "startup": [
+  {
+   "title": "Rehab 3D Innovations",
+   "when": "Founder",
+   "text": "The startup I founded."
+  }
+ ]
+}

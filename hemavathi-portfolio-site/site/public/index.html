@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hemavathi R | Biomedical Engineering Student Portfolio</title>
+<meta name="description" content="Portfolio of Hemavathi Ravichandran (Hemavathi R), biomedical engineering student at Paavai Engineering College. 3D-printed rehabilitation devices, AI diagnostics, embedded health systems and 3D bioprinting.">
+<meta property="og:title" content="Hemavathi R | Biomedical Engineering Portfolio">
+<meta property="og:description" content="3D-printed assistive devices, AI diagnostics and embedded health systems.">
+<meta property="og:type" content="website">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Hemavathi Ravichandran","alternateName":"Hemavathi R","jobTitle":"Founder, Rehab 3D Innovations; Biomedical Engineering Student","alumniOf":"Paavai Engineering College","address":{"@type":"PostalAddress","addressLocality":"Cuddalore","addressRegion":"Tamil Nadu","addressCountry":"IN"},"sameAs":["https://github.com/hemavathi06","https://linkedin.com/in/hemavathi06"]}</script>
+<link href="https://fonts.googleapis.com/css2?family=Yellowtail&family=Bricolage+Grotesque:wght@500;700&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F3FAFD;--panel:#fff;--ink:#12302F;--mute:#4D6B6B;--line:#BFDDE6;--teal:#0F8B8D;--olive:#6B7A2A;--sky:#CFE9F5;--stage:#E4F2F8;--btn:#566320;--btnink:#fff;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0C1C1F;--panel:#13292D;--ink:#E7F3F1;--mute:#9DB9B8;--line:#27474B;--teal:#4FC9C6;--olive:#B5C75A;--sky:#17343A;--stage:#0A171A;--btn:#B5C75A;--btnink:#10200F}}
+:root[data-theme="dark"]{--bg:#0C1C1F;--panel:#13292D;--ink:#E7F3F1;--mute:#9DB9B8;--line:#27474B;--teal:#4FC9C6;--olive:#B5C75A;--sky:#17343A;--stage:#0A171A;--btn:#B5C75A;--btnink:#10200F}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 "IBM Plex Sans",system-ui,sans-serif}
+h1,h2,h3{font-family:"Bricolage Grotesque","Segoe UI",sans-serif;line-height:1.15;margin:0}a{color:var(--teal)}
+.nav{position:fixed;z-index:20;top:calc(12px + env(safe-area-inset-top,0px));left:50%;transform:translateX(-50%);display:flex;gap:4px;padding:5px;border-radius:999px;background:var(--panel);border:1px solid var(--line);box-shadow:0 6px 18px rgba(15,139,141,.18)}
+.nav a,.nav button{font:500 15px "IBM Plex Sans",sans-serif;padding:8px 16px;border-radius:999px;border:0;background:none;color:var(--ink);text-decoration:none;cursor:pointer}
+.nav a:hover,.nav button:hover{background:var(--sky)}
+:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
+.hero{position:relative;min-height:100vh;min-height:100svh;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:10px;padding:90px 6vw 60px;overflow:hidden;background:linear-gradient(160deg,var(--sky),var(--bg) 70%)}
+.hi{font:1.5rem "Yellowtail",cursive;color:var(--olive);margin:0}
+.hero h1{font-size:clamp(2.6rem,7vw,5rem)}.role{font:700 1.3rem "Bricolage Grotesque",sans-serif;color:var(--teal);margin:6px 0 10px}
+.tag{max-width:46ch;color:var(--mute);margin:0 0 22px}.btns{display:flex;gap:12px;flex-wrap:wrap}
+.b{font:500 16px "IBM Plex Sans",sans-serif;padding:12px 26px;border-radius:999px;text-decoration:none;cursor:pointer;border:2px solid var(--btn)}
+.solid{background:var(--btn);color:var(--btnink)}.ghost{background:none;color:var(--ink)}
+.hs{position:relative;height:min(78vh,640px)}#dna{position:absolute;inset:0;width:100%;height:100%}
+.ph{position:absolute;left:50%;bottom:0;transform:translateX(-50%);perspective:900px}
+#me{display:block;height:min(62vh,500px);width:auto;border-radius:200px 200px 22px 22px;border:6px solid var(--teal);background:#fff;box-shadow:0 20px 50px rgba(15,139,141,.35);transition:transform .15s ease-out}
+.fl{position:absolute;font-size:2.4rem;filter:drop-shadow(0 6px 4px rgba(0,0,0,.2));animation:fl 4s ease-in-out infinite}
+.f1{left:4%;top:8%}.f2{right:4%;top:18%;animation-delay:.8s}.f3{left:2%;bottom:22%;animation-delay:1.6s}.f4{right:2%;bottom:14%;animation-delay:2.4s}
+@keyframes fl{50%{transform:translateY(-14px) rotate(6deg)}}
+.ecg{position:absolute;left:0;bottom:6px;width:100%;height:50px}.ecg path{fill:none;stroke:var(--olive);stroke-width:2.5;stroke-dasharray:1;stroke-dashoffset:1;animation:dr 4s linear infinite}
+@keyframes dr{to{stroke-dashoffset:0}}
+.wrap{max-width:1040px;margin:0 auto;padding:10px 20px 20px}h2{font-size:1.7rem;margin:38px 0 6px}.sub{color:var(--mute);margin:0 0 18px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:18px;perspective:1000px}
+.c3{background:var(--panel);border:1px solid var(--line);border-top:7px solid var(--c);border-radius:20px;padding:16px;text-align:left;cursor:pointer;color:inherit;font:inherit;box-shadow:0 6px 0 var(--line),0 16px 26px rgba(15,139,141,.14);transition:transform .2s}
+.c3:hover{transform:translateY(-5px) rotateX(5deg)}.c3 h3{margin:10px 0 2px}.c3 p{margin:0;color:var(--mute);font-size:14px}
+.mas{position:relative;width:92px;height:92px;animation:bob 3s ease-in-out infinite}.mas svg{width:100%;height:100%;filter:drop-shadow(0 6px 4px rgba(0,0,0,.2))}
+.em{position:absolute;right:-12px;bottom:-4px;font-size:34px;filter:drop-shadow(0 3px 2px rgba(0,0,0,.3))}
+@keyframes bob{50%{transform:translateY(-6px)}}
+.viewer{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.tabs{display:flex;flex-wrap:wrap;border-bottom:1px solid var(--line)}.tabs button{flex:1 1 180px;font:500 15px "IBM Plex Sans",sans-serif;padding:14px 16px;background:none;color:var(--mute);border:0;border-bottom:3px solid transparent;cursor:pointer;text-align:left}
+.tabs button[aria-pressed="true"]{color:var(--ink);border-bottom-color:var(--olive)}
+#stage{height:min(60vh,440px);background:var(--stage);touch-action:none;cursor:grab}#stage canvas{display:block;width:100%;height:100%}
+.cap{padding:14px 18px}.cap p{margin:0 0 4px}.hint{color:var(--mute);font-size:14px}
+form{display:grid;gap:12px;max-width:520px}input,textarea{font:inherit;padding:10px 12px;border-radius:8px;border:1px solid var(--line);background:var(--panel);color:var(--ink)}
+#msg{min-height:1.4em}footer{text-align:center;color:var(--mute);padding:30px 20px 44px}
+dialog{width:min(760px,94vw);max-height:88vh;border:0;border-radius:22px;background:var(--panel);color:var(--ink);padding:0;overflow:auto}dialog::backdrop{background:rgba(10,40,42,.55)}
+.in{padding:22px}.dh{display:flex;align-items:center;gap:18px;margin-bottom:14px}.dh h2{margin:0}
+.bub{background:var(--sky);border-radius:16px;padding:8px 14px;margin-top:6px;display:inline-block}
+dl{display:grid;grid-template-columns:auto 1fr;gap:6px 16px}dt{font-weight:500;color:var(--olive)}dd{margin:0}
+.in h3{margin:20px 0 8px;color:var(--teal)}ul.plain{list-style:none;padding:0;margin:0;display:grid;gap:10px}ul.plain li{padding-left:12px;border-left:3px solid var(--olive)}
+.when{color:var(--mute);font-size:14px}.new{color:var(--olive);font-weight:500;font-size:14px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}.chips span{border:1px solid var(--line);background:var(--sky);border-radius:999px;padding:4px 12px;font-size:14px}
+.cl{margin-top:18px;display:flex;gap:12px;flex-wrap:wrap}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:80px}.hs{height:480px}#me{height:360px}.nav a,.nav button{padding:8px 10px;font-size:14px}}
+@media(prefers-reduced-motion:reduce){.fl,.mas,.ecg path{animation:none}.ecg path{stroke-dashoffset:0}}
+.founder{display:inline-block;font:700 1rem "Bricolage Grotesque",sans-serif;background:var(--btn);color:var(--btnink);padding:4px 14px;border-radius:999px;margin:10px 0 0}.vstage{height:min(55vh,380px);background:#CFE9F5;border-radius:12px;overflow:hidden}.vstage canvas{display:block;width:100%;height:100%}.pimg{max-width:100%;border-radius:10px;margin-top:8px;border:1px solid var(--line)}.vrow{display:flex;gap:12px;flex-wrap:wrap}
+</style></head><body>
+<nav class="nav" aria-label="Main"><a href="#home">Home</a><button data-k="resume">Resume</button><a href="#models">3D models</a><a href="#contact">Contact</a></nav>
+<section class="hero" id="home">
+<div><p class="hi">Hi, I’m</p><h1>Hemavathi R</h1><p class="founder">Founder, Rehab 3D Innovations</p><p class="role">Biomedical Engineering Student</p>
+<p class="tag">I design 3D-printed assistive devices, AI diagnostics and embedded health systems.</p>
+<div class="btns"><button class="b solid" data-k="resume">Open my resume</button><a class="b ghost" href="#contact">Let’s talk</a></div></div>
+<div class="hs"><canvas id="dna" aria-hidden="true"></canvas><div class="ph"><img id="me" src="photo.jpg" alt="Hemavathi R" width="640" height="853"></div>
+<span class="fl f1">🧬</span><span class="fl f2">🫀</span><span class="fl f3">🦴</span><span class="fl f4">🔬</span></div>
+<svg class="ecg" viewBox="0 0 1168 80" preserveAspectRatio="none" aria-hidden="true"><path id="ecg" pathLength="1"/></svg>
+</section>
+<main class="wrap">
+<h2>Meet my little guides</h2><p class="sub">Tap a character to see everything about that part of me.</p>
+<div class="cards" id="cards"></div>
+<h2 id="models">My 3D models</h2>
+<div class="viewer"><div class="tabs" id="tabs"><button aria-pressed="true" data-i="0">CanineBone AI scaffold</button><button aria-pressed="false" data-i="1">Rehabilitation assist device</button><button aria-pressed="false" data-i="2">Breath cancer screening system</button></div>
+<div id="stage" role="img" aria-label="Interactive 3D model, drag to rotate"></div><div class="cap"><p id="capText"></p><p class="hint">Drag to rotate. The scaffold is my real STL file; the other models are illustrative.</p><button class="b ghost" id="cadb" data-v="cad" hidden>View CAD design sheet</button></div></div>
+<h2 id="videos">Internship 3D videos</h2><p class="sub">Tap a button to watch a 3D animation of each internship.</p><div class="vrow"><button class="b solid" data-v="apollo">🏥 Apollo Hospital, Chennai</button><button class="b solid" data-v="medsby">🧪 Medsby, Coimbatore</button></div>
+<h2 id="contact">Contact me</h2>
+<form id="cf"><input name="name" placeholder="Your name" required maxlength="80" aria-label="Your name"><input name="email" type="email" placeholder="Your email" required maxlength="120" aria-label="Your email"><textarea name="message" rows="4" placeholder="Your message" required maxlength="1000" aria-label="Your message"></textarea><button class="b solid">Send message</button><div id="msg" role="status"></div></form>
+</main>
+<footer>Hemavathi R · Biomedical Engineering · Cuddalore, Tamil Nadu</footer>
+<dialog id="dlg" aria-labelledby="dt"><div class="in"><div class="dh" id="dh"></div><div id="db"></div><div class="cl" id="cl"></div></div></dialog>
+<dialog id="vd" aria-labelledby="vt"><div class="in"><h2 id="vt"></h2><div id="vb"></div><p id="vc" class="bub"></p><div class="cl"><button class="b solid" id="vp">Pause</button><button class="b ghost" id="vx">Close</button></div></div></dialog>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+(function(){
+var p='M0 40';for(var i=0;i<8;i++)p+='h60 l8 -24 l10 48 l8 -24 h60 ';document.getElementById('ecg').setAttribute('d',p);
+var cv=document.getElementById('dna'),R=new THREE.WebGLRenderer({canvas:cv,alpha:true,antialias:true}),S=new THREE.Scene(),C=new THREE.PerspectiveCamera(40,1,.1,100);C.position.z=12;
+S.add(new THREE.AmbientLight(0xffffff,.8));var L=new THREE.DirectionalLight(0xffffff,.8);L.position.set(3,5,6);S.add(L);
+var g=new THREE.Group(),a1=new THREE.MeshStandardMaterial({color:0x0F8B8D}),a2=new THREE.MeshStandardMaterial({color:0x6B7A2A}),a3=new THREE.MeshStandardMaterial({color:0x9CCBE0}),sp=new THREE.SphereGeometry(.22,14,10);
+for(var i=0;i<30;i++){var y=(i-15)*.3,a=i*.4,r=2.6,A=new THREE.Mesh(sp,a1),B=new THREE.Mesh(sp,a2);
+A.position.set(Math.cos(a)*r,y,Math.sin(a)*r);B.position.set(-Math.cos(a)*r,y,-Math.sin(a)*r);
+var pv=new THREE.Object3D();pv.position.y=y;pv.rotation.y=-a;var cy=new THREE.Mesh(new THREE.CylinderGeometry(.045,.045,2*r,6),a3);cy.rotation.z=Math.PI/2;pv.add(cy);g.add(A,B,pv);}
+g.rotation.z=.22;S.add(g);
+function rs(){var h=cv.parentNode;R.setPixelRatio(Math.min(devicePixelRatio,2));R.setSize(h.clientWidth,h.clientHeight,false);C.aspect=h.clientWidth/h.clientHeight;C.updateProjectionMatrix();}
+addEventListener('resize',rs);rs();var calm=matchMedia('(prefers-reduced-motion: reduce)').matches;
+(function lp(){requestAnimationFrame(lp);if(!calm)g.rotation.y+=.007;R.render(S,C);})();
+var im=document.getElementById('me');
+addEventListener('pointermove',function(e){if(calm)return;var b=im.getBoundingClientRect(),x=Math.max(-1,Math.min(1,(e.clientX-b.left-b.width/2)/(innerWidth/2))),y=Math.max(-1,Math.min(1,(e.clientY-b.top-b.height/2)/(innerHeight/2)));
+im.style.transform='rotateY('+x*9+'deg) rotateX('+-y*7+'deg)';});
+})();
+</script>
+<script>
+(function(){
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+var K=[['details','📍','My details','Address, contact and links'],['startup','🚀','Startup','Rehab 3D Innovations'],['education','🎓','Education','School to B.E.'],['skills','🛠️','Skills','Tools I work with'],['projects','🔬','Projects','Devices and AI'],['achievements','🏆','Achievements and awards','Grants and prizes'],['internships','🩺','Internships','Hospital and industry'],['certifications','📜','Certifications','Courses and workshops']];
+var D=null,dlg=document.getElementById('dlg');
+function mascot(e){return '<div class="mas"><svg viewBox="0 0 100 100" aria-hidden="true"><defs><radialGradient id="sk" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#FFE7C7"/><stop offset="1" stop-color="#EFAE72"/></radialGradient></defs><ellipse cx="50" cy="96" rx="26" ry="4" fill="rgba(0,0,0,.15)"/><circle cx="50" cy="56" r="38" fill="url(#sk)"/><path d="M14 52Q16 14 50 14Q84 14 86 52Q70 30 50 32Q30 30 14 52Z" fill="#2B2B2B"/><ellipse cx="36" cy="58" rx="5" ry="7" fill="#222"/><ellipse cx="64" cy="58" rx="5" ry="7" fill="#222"/><circle cx="34.5" cy="55" r="2" fill="#fff"/><circle cx="62.5" cy="55" r="2" fill="#fff"/><circle cx="25" cy="70" r="6" fill="#FF9AA2" opacity=".6"/><circle cx="75" cy="70" r="6" fill="#FF9AA2" opacity=".6"/><path d="M38 72Q50 86 62 72Z" fill="#7A2E2E"/></svg><span class="em">'+e+'</span></div>';}
+function items(a){return '<ul class="plain">'+a.map(function(i){return '<li><strong>'+esc(i.title)+'</strong> '+(i.when?'<span class="'+(i.when==='New'?'new':'when')+'">'+esc(i.when)+'</span>':'')+'<br>'+esc(i.text)+(i.video?'<br><button class="b ghost" data-v="'+i.video+'">▶ Watch 3D video</button>':'')+(i.img?'<br><img class="pimg" src="'+i.img+'" alt="'+esc(i.title)+' CAD design">':'')+'</li>';}).join('')+'</ul>';}
+function chips(a){return '<div class="chips">'+a.map(function(s){return '<span>'+esc(s)+'</span>';}).join('')+'</div>';}
+function sec(k){var d=D.details;
+ if(k==='details')return '<dl><dt>Address</dt><dd>'+esc(d.address)+'</dd><dt>Phone</dt><dd>'+esc(d.phone)+'</dd><dt>Email</dt><dd><a href="mailto:'+esc(d.email)+'">'+esc(d.email)+'</a></dd><dt>Languages</dt><dd>'+esc(d.languages)+'</dd>'+d.links.map(function(l){return '<dt>'+esc(l[0])+'</dt><dd>'+(l[2]?'<a href="'+esc(l[2])+'" target="_blank" rel="noopener">'+esc(l[1])+'</a>':esc(l[1]))+'</dd>';}).join('')+'</dl><h3>Career objective</h3><p>'+esc(d.objective)+'</p><h3>Research interests</h3>'+chips(d.interests);
+ if(k==='skills')return chips(D.skills);return items(D[k]);}
+function open(k){var h,b;
+ if(k==='resume'){h=mascot('📄')+'<div><h2 id="dt">Resume</h2><span class="bub">My whole resume in one place!</span></div>';
+  b=K.map(function(x){return '<h3>'+x[1]+' '+x[2]+'</h3>'+sec(x[0]);}).join('');
+  document.getElementById('cl').innerHTML='<a class="b solid" href="Hemavathi_resume.pdf" target="_blank" rel="noopener">Download resume PDF</a>';}
+ else{var x=K.filter(function(y){return y[0]===k;})[0];h=mascot(x[1])+'<div><h2 id="dt">'+x[2]+'</h2><span class="bub">Here’s everything about this!</span></div>';b=sec(k);document.getElementById('cl').innerHTML='';}
+ document.getElementById('dh').innerHTML=h;document.getElementById('db').innerHTML=b;
+ document.getElementById('cl').innerHTML+='<button class="b ghost" id="x">Close</button>';document.getElementById('x').onclick=function(){dlg.close();};dlg.showModal();}
+document.addEventListener('click',function(e){var b=e.target.closest('[data-k]');if(b&&D)open(b.dataset.k);if(e.target===dlg)dlg.close();});
+fetch('/api/content').then(function(r){return r.json();}).then(function(d){D=d;var cs=['#0F8B8D','#6B7A2A','#7FB8D6'];
+ document.getElementById('cards').innerHTML=K.map(function(x,i){return '<button class="c3" data-k="'+x[0]+'" style="--c:'+cs[i%3]+'">'+mascot(x[1])+'<h3>'+x[2]+'</h3><p>'+x[3]+'</p></button>';}).join('');
+}).catch(function(){document.getElementById('cards').textContent='Start the server with: node server.js';});
+document.getElementById('cf').addEventListener('submit',function(e){e.preventDefault();var f=e.target,m=document.getElementById('msg');
+ fetch('/api/contact',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name:f.name.value,email:f.email.value,message:f.message.value})})
+ .then(function(r){return r.json().then(function(j){m.textContent=r.ok?'Thanks, your message was sent.':j.error;if(r.ok)f.reset();});}).catch(function(){m.textContent='Could not send. Please try again.';});});
+})();
+</script>
+<script src="viewer.js"></script>
+</body></html>
